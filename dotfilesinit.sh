@@ -45,3 +45,9 @@ CAPSWAPMAP="jums.map"
 SYSKMPATH="/usr/share/kbd/keymaps/i386/qwerty"
 sudo ln -s $MYKMPATH/$CAPSWAPMAP $SYSKEYMAPS/$CAPSWAPMAP
 
+# vim stuff
+# install vim plug for vanilla vim
+VIMPLUGDIR="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+curl -fLo "~/.vim/autoload/plug.vim" --create-dirs $VIMPLUGURL
+#install vim plug for neovim
+curl -fLo "~/.local/share/nvim/site/autoload/plug.vim" --create-dirs $VIMPLUGURL
