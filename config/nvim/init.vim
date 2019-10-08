@@ -2,7 +2,6 @@
 
 set nocompatible
 set directory^=$HOME/.vim/tmp//
-map <SPACE> <leader>
 set encoding=utf-8
 set fileformats=unix,dos,mac
 set t_Co=256
@@ -30,6 +29,7 @@ set cursorline
 set scrolloff=8
 set splitbelow
 set splitright
+map <SPACE> <leader>
 nnoremap <C-J> <C-w><C-J>
 nnoremap <C-K> <C-w><C-K>
 nnoremap <C-L> <C-w><C-L>

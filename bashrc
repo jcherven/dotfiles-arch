@@ -18,6 +18,11 @@ fi
 
 source $HOME/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
+green="\[\033[0;32m\]"
+blue="\[\033[0;34m\]"
+purple="\[\033[0;35m\]"
+reset="\[\033[0m\]"
+export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 
 set -o vi
 
