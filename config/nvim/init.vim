@@ -40,6 +40,7 @@ set signcolumn=no
 
 call plug#begin('~/.vim/plugged')
   Plug 'christoomey/vim-tmux-navigator'
+  Plug 'jeffKreeftmeijer/vim-numbertoggle'
   Plug 'mkitt/tabline.vim'
   Plug 'tpope/vim-fugitive'
   Plug 'scrooloose/nerdtree'
