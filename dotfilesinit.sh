@@ -21,7 +21,7 @@ FILESLINKED=(
 	"$HOME/dotfiles-arch/bashrc"
 	"$HOME/dotfiles-arch/bash_logout"
 	"$HOME/dotfiles-arch/bash_profile"
-	"$HOME/dotfiles-arch/vimrc"
+	"$HOME/dotfiles-arch/config/nvim/init.vim"
 	"$HOME/dotfiles-arch/gitconfig"
 	"$HOME/dotfiles-arch/lynxrc"
 	"$HOME/dotfiles-arch/lynx_bookmarks.html"
