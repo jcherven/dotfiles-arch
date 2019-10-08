@@ -37,3 +37,33 @@ nnoremap <C-H> <C-w><C-H>
 nnoremap <space> :
 set mouse=a
 set signcolumn=no
+
+call plug#begin('~/.vim/plugged')
+  Plug 'christoomey/vim-tmux-navigator'
+  Plug 'mkitt/tabline.vim'
+  Plug 'tpope/vim-fugitive'
+  Plug 'scrooloose/nerdtree'
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+    map <C-n> :NERDTreeToggle<CR>
+    let NERDTreeMinimalUI=1
+    let g:NERDTreeWinPos = "left"
+    let g:NERDTreeShowLineNumbers=1
+    let g:NERDTreeDirArrows=1
+    let g:NERDTreeAutoDeleteBuffer=1
+    let g:NERDTreeShowHidden=1
+    let g:NERDTreeMapJumpParent = "h"
+    let g:NERDTreeMapActivateNode = "l"
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'mortonfox/nerdtree-clip'
+  Plug 'sickill/vim-pasta'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-commentary'
+  Plug 'bronson/vim-trailing-whitespace'
+  Plug 'easymotion/vim-easymotion'
+  Plug 'wesq3/vim-windowswap'
+  Plug 'yuttie/comfortable-motion.vim'
+  Plug 'djoshea/vim-autoread'
+  Plug 'jiangmiao/auto-pairs'
+call plug#end()
+
