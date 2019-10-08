@@ -12,9 +12,9 @@ export RANGER_LOAD_DEFAULT_RC=false
 
 export EDITOR=nvim
 
-#if ! [ -x "$command -v nvim)" ]; then
-#	alias vim='nvim'
-#fi
+if ! [ -x "$command -v nvim)" ]; then
+  alias vim='nvim'
+fi
 
 source $HOME/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
