@@ -3,6 +3,8 @@
 set -e
 pushd "$HOME"
 
+
+
 # $FILESLOCAL and $FILESLINKED must map by index correctly
 FILESLOCAL=(
 	"$HOME/.git-prompt.sh"
@@ -11,8 +13,6 @@ FILESLOCAL=(
 	"$HOME/.bash_profile"
 	"$HOME/.vimrc"
 	"$HOME/.gitconfig"
-	"$HOME/.lynxrc"
-	"$HOME/.lynx_bookmarks.html"
 	"$HOME/.tmux.conf"
 )
 
@@ -23,8 +23,6 @@ FILESLINKED=(
 	"$HOME/dotfiles-arch/bash_profile"
 	"$HOME/dotfiles-arch/config/nvim/init.vim"
 	"$HOME/dotfiles-arch/gitconfig"
-	"$HOME/dotfiles-arch/lynxrc"
-	"$HOME/dotfiles-arch/lynx_bookmarks.html"
 	"$HOME/dotfiles-arch/tmux.conf"
 )
 
