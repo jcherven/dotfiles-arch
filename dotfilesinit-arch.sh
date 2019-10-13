@@ -16,7 +16,7 @@ FILESLOCAL=(
 )
 
 FILESLINKED=(
-  "$HOME/dotfiles/Xresources"
+  "$HOME/dotfiles-arch/Xresources"
   "$HOME/dotfiles-arch/git-prompt.sh"
   "$HOME/dotfiles-arch/bash_profile"
   "$HOME/dotfiles-arch/bashrc"
@@ -35,11 +35,8 @@ DIRSLINKED=(
   "$HOME/dotfiles/config/ranger"
 )
 
-# Create .config directory if it doesn't exist
-if [ ! -d "$HOME/.config" ];
-then
-  mkdir "$HOME/.config"
-fi
+# run the viminit script here maybe?
+# source "./viminit.sh"
 
 # ~/ dot file symlinks
 # requires a c-style loop to access array index numbers
