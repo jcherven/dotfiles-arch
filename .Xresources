@@ -1,0 +1,32 @@
+! #include "other-x-resource"
+
+XTerm.termName: xterm-256color
+! utf8 support
+XTerm*utf8: 1
+! set a simplified unicode font for XTerm
+XTerm*font: -*-terminus-medium-*-*-*-13-*-*-*-*-*-iso10646-1
+XTerm.vt100.locale: true
+XTerm.vt100.loginShell: true
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.backarrowKey : false
+XTerm.ttyModes: erase ^?
+
+XTerm.vt100.saveLines: 10000
+
+! White text on black instead of the default
+*reverseVideo: true
+!XTerm.vt100.foreground: #ffffff
+!XTerm.vt100.background: black
+
+!*font: terminus-13
+!*boldFont: terminus-13
+!*xterm*faceSize: 13
+! Disable bold font faces, use color instead
+*.colorBDMode: true
+*.colorBD: blue
+
+xterm*rightScrollBar:   true
+xterm*ScrollBar:    true
+
+! Jummiterm color scheme
+! XTerm*cursorColor: #ffffff

@@ -7,6 +7,8 @@ pushd "$HOME"
 # the arrays FILESLOCAL and FILESLINKED correspond by index order
 FILESLOCAL=(
   "$HOME/.Xresources"
+  "$HOME/.Xmodmap"
+  "$HOME/.xsession"
   "$HOME/.git-prompt.sh"
   "$HOME/.bash_profile"
   "$HOME/.bashrc"
@@ -17,6 +19,8 @@ FILESLOCAL=(
 
 FILESLINKED=(
   "$HOME/dotfiles-arch/Xresources"
+  "$HOME/dotfiles-arch/Xmodmap"
+  "$HOME/dotfiles-arch/xsession"
   "$HOME/dotfiles-arch/git-prompt.sh"
   "$HOME/dotfiles-arch/bash_profile"
   "$HOME/dotfiles-arch/bashrc"
